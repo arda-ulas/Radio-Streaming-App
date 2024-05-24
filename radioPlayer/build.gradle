@@ -1,0 +1,36 @@
+plugins {
+    id("com.android.library")
+    id("kotlin-android")
+}
+
+android {
+    compileSdk = 31
+    buildToolsVersion = "30.0.3"
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 31
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+        }
+    }
+}
+
+dependencies {
+    implementation projects.common
+    implementation projects.datasource
+
+    implementation projects.db
+    implementation projects.mediaItemDsl
+
+    implementation libs.core
+    implementation libs.glide
+    implementation libs.koin.android
+    implementation libs.lifecycle.runtime
+    implementation libs.media
+
+    implementation libs.bundles.exoPlayer
+}

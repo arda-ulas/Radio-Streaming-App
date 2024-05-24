@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">RadioTok</string>
+
+    <!-- Content Description -->
+    <string name="cc_add_favorite">Add favorite</string>
+    <string name="cc_remove_favorite">Remove favorite</string>
+    <string name="cc_skip_next">Skip Next</string>
+    <string name="cc_tune">Tune</string>
+    <string name="cc_not_interested">Not interested</string>
+    <string name="cc_radio_logo_error">Radio logo error</string>
+    <string name="cc_radio_logo_success">Radio logo</string>
+    <string name="cc_open_settings">Open settings</string>
+
+    <!-- Categories  -->
+    <string name="media_item_path_shuffle_and_play">Shuffle and Play</string>
+    <string name="media_item_path_personal_playlists">Personal Playlists</string>
+    <string name="media_item_path_smart_playlists">Smart Playlists</string>
+    <string name="media_item_path_by_tags">By Tags</string>
+    <string name="media_item_path_by_country">By Country</string>
+    <string name="media_item_path_by_language">By Language</string>
+    <string name="media_item_path_catalog">Catalog</string>
+
+    <string name="media_item_path_random_radio">Random radio</string>
+    <string name="media_item_path_liked_radio">Liked radio</string>
+
+    <string name="media_item_path_liked">Liked</string>
+    <string name="media_item_path_recently_played">Recently Played</string>
+    <string name="media_item_path_disliked">Disliked</string>
+
+    <string name="media_item_path_local_stations">Local Stations</string>
+    <string name="media_item_path_top_clicks">Top Clicks</string>
+    <string name="media_item_path_top_vote">Top Vote</string>
+    <string name="media_item_path_changed_lately">Changed Lately</string>
+    <string name="media_item_path_playing">Playing</string>
+
+    <string name="show_all">Show all</string>
+
+    <!-- Settings  -->
+    <string name="settings_screen_header">Settings</string>
+    <string name="settings_section_backup_header">Backup/Restore</string>
+    <string name="settings_section_backup_title">Backup</string>
+    <string name="settings_section_backup_description">Backup settings and liked/disliked radio stations</string>
+    <string name="settings_section_restore_title">Restore</string>
+    <string name="settings_section_restore_description">Restore settings from last backup/disliked radio stations</string>
+
+    <!-- Common -->
+    <plurals name="radio_station_count">
+        <item quantity="zero">No stations</item>
+        <item quantity="one">%1$d station</item>
+        <item quantity="two">%1$d stations</item>
+        <item quantity="few">%1$d stations</item>
+        <item quantity="many">%1$d stations</item>
+        <item quantity="other">%1$d stations</item>
+    </plurals>
+
+    <!-- Radio Service -->
+    <string name="playback_error_source">Looks like this station not available right now.\nJust try to play Next station or start this playlist again</string>
+
+    <string name="notification_channel_name">Radio Channel</string>
+    <string name="notification_channel_description">Shows the currently playing radio</string>
+
+    <string name="custom_action_favorite_remove">Remove from favorites</string>
+    <string name="custom_action_favorite_add">Add to favorites</string>
+    <string name="custom_action_dislike">Do not recommend this track</string>
+    <string name="custom_action_skip_to_next">Skip to next</string>
+
+    <string name="playback_action_skip_to_previous">Skip to previous track</string>
+    <string name="playback_action_skip_to_next">Skip to next track</string>
+    <string name="playback_action_play">Play</string>
+    <string name="playback_action_pause">Pause</string>
+    <string name="playback_action_like">Like</string>
+    <string name="playback_action_unlike">Unlike</string>
+    <string name="playback_action_dislike">Dislike</string>
+</resources>
